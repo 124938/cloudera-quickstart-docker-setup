@@ -1,0 +1,11 @@
+<configuration>
+	<property>
+		<name>hive.metastore.uris</name>
+		<value>thrift://localhost:9083</value>
+		<description>Thrift URI for the remote metastore. Used by metastore client to connect to remote metastore.</description>
+	</property>
+	<property>
+		<name>spark.sql.warehouse.dir</name>
+		<value>hdfs://localhost:8020/user/hive/warehouse</value>
+	</property>
+</configuration>
